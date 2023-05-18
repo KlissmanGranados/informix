@@ -21,4 +21,11 @@
 ### Stop and remove Containers & volume
 1. Run __docker-compose down -v__  
 
+| Parameter | Value    |
+|-----------|----------|
+| user      | informix |
+| password  | in4mix   |
+| database  | sysadmin |
+| server    | informix |
+| port      | 9088     |
 
