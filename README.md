@@ -1,4 +1,18 @@
-# feature-set-1
+# Informix database
+
+A container that contains an Informix database with its default configurations, using the official IBM image.
+
+
+## Connection
+
+
+| Parameter | Value    |
+|-----------|----------|
+| user      | informix |
+| password  | in4mix   |
+| database  | sysadmin |
+| server    | informix |
+| port      | 9088     |
 
 ## Default compose file:
     docker-compose.yml
@@ -19,13 +33,5 @@
 ### Up & Running 
 
 ### Stop and remove Containers & volume
-1. Run __docker-compose down -v__  
-
-| Parameter | Value    |
-|-----------|----------|
-| user      | informix |
-| password  | in4mix   |
-| database  | sysadmin |
-| server    | informix |
-| port      | 9088     |
+1. Run __docker-compose down -v__ 
 
